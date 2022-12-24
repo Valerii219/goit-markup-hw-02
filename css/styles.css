@@ -1,8 +1,33 @@
-body {background-color:  #E5E5E5;
-    color:  tomato;
+body { color:  #2E2F42;
+    background-color:  #E5E5E5;
+    font-family: Roboto;
+   
 }
-.logo {
-    color:
+.list {
+    list-style: none;
+}
+/* logo доробити */
+.logo-web {
+    color:#4D5AE5
+}
+.logo:hover {
+    color:#404BBF; ;
+}
+.logo-studio{color: #2E2F42;
+}
+/* site-nav */
+.site-nav .link{color: #2E2F42;
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+ {
+    color: #404BBF;
+}
+.auth-nav{
+
+}
+.section-title { color:#2E2F42;
 }
 /* 1 color: #2E2F42; */
     /* 2 color: #434455; */

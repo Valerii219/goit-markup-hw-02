@@ -1,37 +1,66 @@
-body { color:  #2E2F42;
-    background-color:  #E5E5E5;
-    font-family: Roboto;
-   
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #404bbf;
 }
-.list {
-    list-style: none;
+body {
+  color: var(--primery-text-color);
+  background-color: #e5e5e5;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-/* logo доробити */
-.logo-web {
-    color:#4D5AE5
+
+/* logo  */
+.logo {
+  color: #4d5ae5;
 }
-.logo:hover {
-    color:#404BBF; ;
+.logo-studio {
+  color: var(--title-text-color);
 }
-.logo-studio{color: #2E2F42;
-}
+
 /* site-nav */
-.site-nav .link{color: #2E2F42;
-
+.site-nav .link {
+  color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
-.site-nav .link:focus
- {
-    color: #404BBF;
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-.auth-nav{
+.auth-nav .link {
+  color: var(--primery-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* hero-title */
 
+/* button */
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
-.section-title { color:#2E2F42;
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
 }
+
+/* section-title */
+.section-title {
+  color: var(--title-text-color);
+}
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+.work-list {
+}
+
 /* 1 color: #2E2F42; */
-    /* 2 color: #434455; */
-    /* 3 color: #FFFFFF; */
-    /* akcent color: #E7E9FC */
-    /* color web color: #4D5AE5; color: #F4F4FD; color: #2E2F42; */
-    /* backgr: background: #E5E5E5; */
+/* 2 color: #434455; */
+/* 3 color: #FFFFFF; */
+/* akcent color: #E7E9FC */
+/* color web color: #4D5AE5; color: #F4F4FD; color: #2E2F42; */
+/* backgr: background: #E5E5E5; */

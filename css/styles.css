@@ -2,12 +2,16 @@
   --primery-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #404bbf;
+  --primery-background-color: #e5e5e5;
+  --secondary-background-color: #4d5ae5;
+  --third-text-color: #ffffff;
+  --additional-color: #e7e9fc;
 }
 body {
-  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
-  background-color: #e5e5e5;
+  background-color: var(--primery-background-color);
 }
 .list {
   list-style: none;
@@ -33,7 +37,6 @@ body {
 
 .mail,
 .number {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primery-text-color);
@@ -53,13 +56,13 @@ body {
   line-height: 1.67;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--secondary-background-color);
 }
 .logo .logo-studio-up {
   color: var(--title-text-color);
 }
 .logo .logo-studio-down {
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 /* button */
 .modal-btn {
@@ -67,25 +70,25 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--third-text-color);
+  background-color: var(--secondary-background-color);
   cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--secondary-background-color);
 }
 .button:hover,
 .button:focus {
-  color: white;
+  color: var(--third-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -100,7 +103,7 @@ body {
 .suptitle-team {
 }
 .suptitle-footer {
-  color: #e7e9fc;
+  color: var(--additional-color);
 }
 .caption {
   font-weight: 500;
@@ -122,7 +125,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 .hero-business {
 }
@@ -146,7 +149,7 @@ body {
 
 /* ===================FOOTER============= */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
 }
 
 /* ===================/FOOTER============= */

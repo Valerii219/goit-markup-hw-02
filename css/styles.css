@@ -46,7 +46,21 @@ body {
 }
 /* ===================/HEADER================================ */
 /*===================== COMPONENTS =================*/
-
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo .logo-studio-up{
+  color: var(--title-text-color);
+}
+.logo .logo-studio-down{
+  color:#ffffff;
+}
 /* button */
 .modal-btn {
   font-weight: 500;
@@ -62,15 +76,15 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-.button{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #4D5AE5;
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
 }
 .button:hover,
-.button:focus{
+.button:focus {
   color: white;
   background-color: var(--accent-color);
   cursor: pointer;
@@ -85,20 +99,21 @@ color: #4D5AE5;
 }
 .suptitle-team {
 }
-.suptitle-footer{
-  color: #E7E9FC;
+.suptitle-footer {
+  color: #e7e9fc;
 }
-.caption{
+.caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);}
+  color: var(--title-text-color);
+}
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
@@ -109,10 +124,14 @@ color: #4D5AE5;
   line-height: 1.07;
   color: #ffffff;
 }
-.our {opacity: 0;}
+.hero-business {
+}
+.our {
+  opacity: 0;
+}
 /* ===================/HERO================================ */
 
-/*===================== section-title =================*/
+/*===================== MAIN =================*/
 .section-title {
   color: var(--title-text-color);
 }
@@ -123,11 +142,11 @@ color: #4D5AE5;
 
 .work-list {
 }
-.footer {background-color:  #2E2F42;
+/*===================== /MAIN =================*/
+
+/* ===================FOOTER============= */
+.footer {
+  background-color: #2e2f42;
 }
-/* 1 color: #2E2F42; */
-/* 2 color: #434455; */
-/* 3 color: #FFFFFF; */
-/* akcent color: #E7E9FC */
-/* color web color: #4D5AE5; color: #F4F4FD; color: #2E2F42; */
-/* backgr: background: #E5E5E5; */
+
+/* ===================/FOOTER============= */

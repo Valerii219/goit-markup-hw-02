@@ -55,11 +55,11 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo .logo-studio-up{
+.logo .logo-studio-up {
   color: var(--title-text-color);
 }
-.logo .logo-studio-down{
-  color:#ffffff;
+.logo .logo-studio-down {
+  color: #ffffff;
 }
 /* button */
 .modal-btn {

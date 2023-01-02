@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+.main-caption {
+  text-align: center;
+  text-shadow: 2px 2px 2px #ff0000, 5px 5px 5px #000000;
+}
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 50px;
+  border: 3px solid #2a2a2a;
+}
+
+.list-header,
+.logo {
+  list-style: none;
+  text-decoration: none;
+}
